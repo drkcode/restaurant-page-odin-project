@@ -1,0 +1,15 @@
+.btn {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: #ff8418;
+}
