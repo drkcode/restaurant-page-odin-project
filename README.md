@@ -1,6 +1,6 @@
 # La Saveur Restaurant Page#
 
-# https://lasaveurodinproject.netlify.app
+- https://lasaveurodinproject.netlify.app
 
 # This is fake restaurant page for Odin Project
 
