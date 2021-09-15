@@ -3,7 +3,7 @@ logoDiv.classList.add('logo-box');
 
 const imgLogo = document.createElement('img');
 
-const imgUrl = '../../dist/assets/img/white-logo.png';
+const imgUrl = './assets/img/white-logo.png';
 
 imgLogo.setAttribute('src', imgUrl);
 imgLogo.setAttribute('alt', 'logo la saveur');
