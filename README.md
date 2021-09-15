@@ -1,4 +1,4 @@
-# La Saveur Restaurant Page#
+# La Saveur Restaurant Page
 
 - https://lasaveurodinproject.netlify.app
 
