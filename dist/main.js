@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst logoDiv = document.createElement('div');\r\nlogoDiv.classList.add('logo-box');\r\n\r\nconst imgLogo = document.createElement('img');\r\n\r\nconst imgUrl = '../../dist/assets/img/white-logo.png';\r\n\r\nimgLogo.setAttribute('src', imgUrl);\r\nimgLogo.setAttribute('alt', 'logo la saveur');\r\nimgLogo.classList.add('logo');\r\n\r\nlogoDiv.appendChild(imgLogo);\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logoDiv);\r\n\n\n//# sourceURL=webpack://Restaurant-page/./dist/components/logo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst logoDiv = document.createElement('div');\r\nlogoDiv.classList.add('logo-box');\r\n\r\nconst imgLogo = document.createElement('img');\r\n\r\nconst imgUrl = './assets/img/white-logo.png';\r\n\r\nimgLogo.setAttribute('src', imgUrl);\r\nimgLogo.setAttribute('alt', 'logo la saveur');\r\nimgLogo.classList.add('logo');\r\n\r\nlogoDiv.appendChild(imgLogo);\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logoDiv);\r\n\n\n//# sourceURL=webpack://Restaurant-page/./dist/components/logo.js?");
 
 /***/ }),
 
