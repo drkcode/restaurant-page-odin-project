@@ -12,23 +12,20 @@ pageTitle.textContent = 'Menu';
 // Card Food
 const food1 = createCard(
   'Beaf steak with Sauce',
-  '../../dist/assets/img/food/beaf-steak-with-sauce.jpg'
+  './assets/img/food/beaf-steak-with-sauce.jpg'
 );
 const food2 = createCard(
   'Pancake with Sliced Strawberry',
-  '../../dist/assets/img/food/pancake-with-sliced strawberry.jpg'
+  './assets/img/food/pancake-with-sliced strawberry.jpg'
 );
 const food3 = createCard(
   'Pasta with Tomato and Basil',
-  '../../dist/assets/img/food/pasta-with-tomato-and-basil.jpg'
+  './assets/img/food/pasta-with-tomato-and-basil.jpg'
 );
-const food4 = createCard(
-  'Salmon Dish',
-  '../../dist/assets/img/food/salmon-dish.jpg'
-);
+const food4 = createCard('Salmon Dish', './assets/img/food/salmon-dish.jpg');
 const food5 = createCard(
   'Tacos with Lime',
-  '../../dist/assets/img/food/tacos-with-lime.jpg'
+  './assets/img/food/tacos-with-lime.jpg'
 );
 
 const foodList = document.createElement('div');

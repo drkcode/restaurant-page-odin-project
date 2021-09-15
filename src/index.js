@@ -14,7 +14,7 @@ const content = document.querySelector('#content');
 const mainContent = document.createElement('main');
 mainContent.setAttribute('id', 'main-content');
 mainContent.classList.add('main');
-mainContent.appendChild(contactPage);
+mainContent.appendChild(homePage);
 
 // Restaurant Page
 content.appendChild(header);
