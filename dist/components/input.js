@@ -1,3 +1,5 @@
+import { InputAnimation } from '../assets/js/animation';
+
 const createInput = (type, inputId, classList, labelName) => {
   const inputBox = document.createElement('div');
   const input = document.createElement('input');
@@ -27,6 +29,9 @@ const createInput = (type, inputId, classList, labelName) => {
 
   // set class input box
   inputBox.classList.add('input__box');
+
+  // animation
+  InputAnimation(input, label);
 
   return inputBox;
 };
