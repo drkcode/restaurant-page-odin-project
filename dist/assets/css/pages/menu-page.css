@@ -2,13 +2,15 @@
   padding: 4rem 5rem !important;
   gap: 4rem;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .food__list {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
 }
 
@@ -34,7 +36,8 @@
 @media screen and (min-width: 700px) {
   .food__list {
     display: flex;
-    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
   }
